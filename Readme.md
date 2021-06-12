@@ -9,13 +9,26 @@ All in Python. All for free. No front‑end experience required.
 
 
 
-## Deployment
+## Installation 
 
-To install this project packages
+Install my-project with pip
+
+- To Create Virtual Environment
+
+```bash   
+    - pip install virtualenv 
+    - virtualenv env
+
+```
+- To install  project packages in Virtualenv
 
 ```bash
-   pip install -r requirement.txt
+    - .\env\script\activate.ps1
+    -  pip install -r requirement.txt
 ```
+    
+## Deployment
+
 
 To deploy this project run
 
