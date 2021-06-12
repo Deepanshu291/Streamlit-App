@@ -11,7 +11,7 @@ st.sidebar.title("CovidApp")
 
 nav = st.sidebar.radio("Navigation", ["Home", "Analysis"])
 # file = st.sidebar.file_uploader("Upload file")
-# df = pd.read_csv('./sample.csv')
+df = pd.read_csv('./sample.csv')
 
 
 class Nav():
@@ -24,7 +24,7 @@ class Nav():
         time.sleep(0.01)
         bar.progress(i+1)
         
-    def Analysis(df):
+    def Analysis():
         Nav.loader()
         st.sidebar.subheader("Data ")
         ftype = st.sidebar.selectbox('Pick File Type', ('DataFrame', 'Graphs', 'Pie Chart'))
@@ -61,7 +61,7 @@ if nav == 'Home':
 
 elif nav == 'Analysis' or btn == True:
     # df = pd.read_csv('./sample.csv')
-    Nav.Analysis(Nav.df)
+    Nav.Analysis()
     
 
 # st.table(df)
