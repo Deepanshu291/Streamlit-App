@@ -60,7 +60,7 @@ st.line_chart(dt)
 
 Add badges from somewhere like: [shields.io](https://shields.io/)
 
-[![MIT License](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-grayscale/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-grayscale/master/LICENSE)
 <!-- [![pip version](https://img.shields.io/npm/v/startbootstrap-grayscale.svg)](https://pypi.org/project/pip/) -->
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
